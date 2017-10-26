@@ -1,0 +1,15 @@
+<h2>Voici ton compte jeune Mousaillon ! </h2>
+
+<table>
+	<tr>
+		<th>Username</th>
+		<th>Email</th>
+	</tr>
+	<tr>
+		<td><%= @mousaillons.username %>
+		</td>
+		<td><%= @mousaillons.email%></td>
+	</tr>
+<%= link_to 'Va voir lindex super cool', edit_mousaillon_path%>
+
+</table>

@@ -1,0 +1,15 @@
+<h1>Crée toi un compte Mousaillon avec un seul S !</h1>
+
+<%= form_for @mousaillons do |f| %>
+	<div class='geronimo'>
+	<label>Username ? </label>
+	  <%= f.text_field :username %>
+	</div>
+	<div class='geronimo'>
+		<label>Email ?</label>
+  	  <%= f.text_field :email %>
+	</div>
+  	<div>
+ 		<%= f.submit "Fait toi plaiz !" %>
+ 	</div>
+<% end %>
